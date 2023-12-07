@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>API Executor</title>
+<meta name="viewport" content="width=device-width", inital-scale="1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<div id="header">
+	<div>	
+		<img id="logoimg" src="/deloitte.svg">
+	</div>
+	<div>
+		<label id="logo">API Test Executor</label>
+	</div>
+</div>	
+	<div class="spinner-border spinner-border-lg" role="status">
+		<span class="sr-only">Loading...</span>
+	</div>  
+	<div id="validation">
+        <button id="validate" type="button" class="btn btn-primary">Validate Execution File</button>
+	</div>
+	<div id="main" class="container">
+		<div id="sub" class="row">
+			<div class="col-6" style="margin-bottom: 60px;">
+			<div class="form-group">
+			  <label id="apiheading">API Execution Bagpack</label>
+			</div>
+		<div class="form-group">
+			<input class="form-control" type="text" id="apifile" placeholder="API Execution File*">
+			</div>
+		<label id="exefilemandatory" class="mandatory">*Fill the mandatory field</label>	
+			<div class="form-group" id="apisbmit">
+				<a href="#" id="apisbmt" class="btn d-block m-0"><i id="iconlaunch" class="fa fa-upload" aria-hidden="true"></i>Submit</a>
+			</div>	
+			<div class="form-group">
+		<input class="form-control" type="text" id="resultsfolder" placeholder="Test Results Folder Path*">
+		</div>
+		<label id="resultsfoldermandatory" class="mandatory">*Fill the mandatory field</label>
+			<div class="form-group">
+		<input class="form-control" type="text" id="datafolder" placeholder="Test Data Folder Path">
+		</div>
+			  <div class="form-group" id="build">
+				<input class="form-control" type="text" id="buildno" placeholder="Build No*">
+				</div>
+				<label id="buildnomandatory" class="mandatory">*Fill the mandatory field</label>
+				<div class="dropdown" id="envs">
+					<button type="button" id="envbtn" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					  Environment
+					</button>
+					<div class="dropdown-menu" id="envdropdown">
+					</div>
+				  </div>
+				  <div class="form-group" id="suites">
+					  <select name="suite" id="testsuite" multiple="multiple">
+					  </select>
+				  </div>
+			<div class="form-group" id="run">
+			<a href="#" id="sbmt" class="btn d-block m-0"><i id="iconlaunch" class="fa fa-rocket" aria-hidden="true"></i>Launch Execution</a>
+		</div>
+	</div>	
+</div>	
+</div>
+	<footer id="footer">
+		<a href="" id="dd">Deloitte Digital</a>
+	</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.min.js"></script>	
+<script src="assets/scripts/main.js"> </script>
+</body>
+</html> 

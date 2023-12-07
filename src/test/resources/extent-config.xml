@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+        
+        <!-- title of the document -->
+        <documentTitle>API Test Executor</documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>API Test Executor</reportName>
+
+		<!-- timestamp format -->
+		<timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+		
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+             $(".report-name").css({'font-size':'2.5rem','font-weight':'bold','margin-left':'250px'});
+            $(".brand-logo").css({'width':'300%','margin-top':'10px','margin-left':'10px','padding-bottom':'20px'});   
+                    
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>

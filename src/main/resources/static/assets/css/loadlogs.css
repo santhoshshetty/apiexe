@@ -1,0 +1,133 @@
+html{
+	zoom: 80%;
+}
+
+#contain {
+	margin: 20px auto;
+	overflow-y: auto;
+	padding: 20px;
+}
+#header{
+	height:140px;
+	background-color: black;
+}
+#logo{
+	color:white;
+	font-size:40px;
+	line-height: 60px;
+	padding:0 20px;
+	font-weight: bold;
+}
+footer{
+	position:fixed;
+	bottom:0;
+	height: 50px;
+	width:100%;
+	background-color: black;
+	z-index: 9;
+}
+.logbuttons {
+	margin-bottom: 60px;
+	text-align: right;
+}
+
+#viewreport {
+	background-color: black;
+}
+
+#downloadlog {
+	background-color: black;
+}
+
+#copyresultspath {
+	background-color: black;
+}
+#sendemail{
+	background-color: black;
+}
+#dd{
+	color:white;
+	text-align: center;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-weight: bold;
+}
+#maincontain{
+    max-width: 1400px;
+}
+
+#footer{
+text-align:center;
+}
+
+#logresult{
+color:white;
+font-size:16px;
+}
+#containbody{
+padding:20px;
+background-color: black;
+}
+#switchtheme{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+#switch{
+    background-color: black;
+    color:white;
+}
+.progress{
+	max-width: 1400px;
+    margin: auto;
+    height: 2rem;
+    position: sticky;
+    top: 0;
+}
+#emailoverlay{
+max-width: 750px;
+}
+#sendresults{
+	background-color: black;
+    color: white;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.progress-bar-success{
+background-color: #6a866a;
+width:40%;
+font-weight: bold;
+}
+#emailclose{
+	background-color: black;
+	color:white;
+}
+.progress-bar-danger{
+background-color: #9c5e5e;
+width:20%;
+font-weight: bold;
+}
+#successprog{
+width:0%;
+font-size:x-large;
+}
+#failprog{
+width:0%;
+font-size:x-large;
+}
+#logoimg{
+	width:182px;
+	margin-left:20px;
+	margin-bottom: 20px;
+	margin-top:20px;
+	
+}
+#successmsg{
+ 	color: white;
+    font-weight: bold;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+}

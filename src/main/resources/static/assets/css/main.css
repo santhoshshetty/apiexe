@@ -1,0 +1,130 @@
+html{
+	height:100%;
+	zoom: 80%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+input{
+letter-spacing:2px;
+}
+#header{
+	height:140px;
+	background-color: black;
+}
+#main{
+	margin-top:50px;
+}
+#logo{
+	color:white;
+	font-size:40px;
+	line-height: 60px;
+	padding:0 20px;
+	font-weight: bold;
+}
+#sub{
+	justify-content: center;
+}
+.btn-group{
+	width:100%;
+	border:1px solid lightgray;
+	border-radius: 5px;
+}
+.multiselect-container{
+	width:100%;
+	letter-spacing: 2px;
+}
+#footer{
+	position: fixed;
+	bottom:0;
+	height:50px;
+	width:100%;
+	background-color: black;
+	z-index: 9;
+	text-align: center;
+}
+#dd{
+	color:white;
+}
+input[type="text"]::placeholder{
+	text-align: center;
+	letter-spacing: 2px;
+}
+#sbmt{
+	background-color: black;
+	border: white;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+#apiheading{
+	text-align: center;
+	display: block;
+	font-size: xx-large;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-decoration: underline;
+}
+#apisbmt{
+	border:1px solid gray;
+	background-color: black;
+	color:white;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.multiselect-selected-text{
+	letter-spacing: 2px;
+}
+#envbtn{
+	width:100%;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+	background-color: white;
+	color:black;
+	border-color: lightgray;
+}
+#envdropdown{
+width:100%;
+}
+.dropdown-item{
+	letter-spacing: 2px;
+}
+.dropdown-item:active{
+	background-color: gray;
+}
+#suites{
+	border: 1p solid lightgray;
+}
+.mandatory{
+	color: red;
+	display: block;
+	text-align: center;
+}
+
+#logoimg{
+	width:182px;
+	margin-left:20px;
+	margin-bottom: 20px;
+	margin-top:20px;
+	
+}
+.spinner-border{
+width:3em;
+height:3em;
+position:fixed;
+left:50%;
+top:50%;
+z-index:9;
+}
+#validate{
+background-color: black;
+    font-weight: bold;
+    height: 2.5rem;
+    letter-spacing: 2px;
+    }
+#validation{
+    margin-top: 10px;
+    float: right;
+    margin-right: 20px;
+} 
